@@ -31,7 +31,6 @@ const sumOrProd = () => {
             }
             rl.close();
         })
-        rl.close();
     })
 }
 
