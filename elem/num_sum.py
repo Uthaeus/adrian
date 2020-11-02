@@ -2,7 +2,11 @@
 
 def num_sum(num):
     r = range(1, num + 1)
-    result = reduce((lambda a, b: a + b), r)
+    result = 0
+    for x in r:
+        if x % 3 == 0 or x % 5 == 0:
+            result += x 
+    
     return result 
 
 
