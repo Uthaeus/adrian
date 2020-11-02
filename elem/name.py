@@ -2,9 +2,9 @@
 
 def hey():
     print("Hey, what's your name?")
-    username = input()
+    username = raw_input()
 
-    print(f'Hello {username}')
+    print('Hello there, {}'.format(username))
 
 
 hey()
