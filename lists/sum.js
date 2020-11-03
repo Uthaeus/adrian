@@ -19,12 +19,13 @@ const while_sum = arr => {
 }
 
 const recur_sum = arr => {
-    let num = arr.reduce((a, b) => a += b);
+    let num = arr.reduce((a, b) => a + b);
     return num;
 }
 
 let temp = [2, 4, 5, 6, 7, 8, 9];
 
 console.log(for_sum(temp));
-console.log(while_sum(temp));
+
 console.log(recur_sum(temp));
+console.log(while_sum(temp));
